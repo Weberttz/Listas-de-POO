@@ -44,5 +44,7 @@ public class Main {
             loja.gerarNotaFiscal();
         else
             System.out.println("Nenhum produto foi comprado");
+
+        teclado.close();
     }
 }
