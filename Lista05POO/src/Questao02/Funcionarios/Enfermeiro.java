@@ -1,4 +1,4 @@
-package Questao02.Funcionarios.Medicos;
+package Questao02.Funcionarios;
 
 public class Enfermeiro extends Funcionario {
     private int horasExtrasTrabalhadas;

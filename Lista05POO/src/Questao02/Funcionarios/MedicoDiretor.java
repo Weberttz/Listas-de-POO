@@ -1,9 +1,8 @@
-package Questao02.Funcionarios.Medicos;
+package Questao02.Funcionarios;
 
 import Questao02.Hospital;
 
 public class MedicoDiretor extends Medico {
-    private String especializacao;
 
     public MedicoDiretor(String nome, String turno, String especializacao) {
         double salario = 10000;
@@ -27,7 +26,4 @@ public class MedicoDiretor extends Medico {
     public String toString(){
         return "Médico Diretor";
     }
-
-    public String getEspecializacao() {return especializacao;}
-    public void setEspecializacao(String especializacao) {this.especializacao = especializacao;}
 }
